@@ -1,0 +1,149 @@
+---
+abstract: 'A Task module for DWIM Perl L<http://dwimperl.com/>'
+author:
+  - 'Gabor Szabo <szabgab@cpan.org>'
+build_requires:
+  ExtUtils::MakeMaker: 6.59
+  Perl::Version: 1.011
+  Test::More: 0.42
+configure_requires:
+  ExtUtils::MakeMaker: 6.59
+distribution_type: module
+dynamic_config: 1
+generated_by: 'Module::Install version 1.06'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Task-DWIM-Modules
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  B::Deparse: 1.04
+  Browser::Open: 0.04
+  Capture::Tiny: 0.21
+  Clipboard: 0.13
+  Clone: 0.31
+  Context::Preserve: 0.01
+  Data::Buffer: 0.04
+  Data::Compare: 1.22
+  Data::Denter: 0.15
+  Data::Dump: 1.21
+  Data::Dump::Streamer: 2.32
+  Data::Dumper::Concise: 2.020
+  Data::Dumper::Names: 0.03
+  Data::GUID: 0.046
+  Data::OptList: 0.107
+  Data::Page: 2.02
+  Data::Random: 0.06
+  Data::Section: 0.101621
+  Data::Taxi: 0.96
+  Data::UUID: 1.217
+  Data::Visitor: 0.27
+  Debug::Client: 0.20
+  Debug::ShowStuff: 1.13
+  Declare::Constraints::Simple: 0.03
+  Devel::Cycle: 1.11
+  Devel::Refactor: 0.05
+  Devel::StackTrace::AsHTML: 0.11
+  Devel::Symdump: 2.08
+  Encode: 2.44
+  Encode::Locale: 1.02
+  Env: 1.03
+  Eval::Closure: 0.07
+  Fennec::Lite: 0.004
+  File::ChangeNotify: 0.21
+  File::Copy::Recursive: 0.37
+  File::Find::Rule: 0.33
+  File::HomeDir: 1.00
+  File::Next: 1.06
+  File::Path: 2.08
+  File::Remove: 1.51
+  File::Slurp: 9999.19
+  File::Which: 1.09
+  File::chmod: 0.32
+  File::pushd: 1.001
+  Filesys::Notify::Simple: 0.08
+  Filter::Simple: 0.87
+  Format::Human::Bytes: 0.06
+  Hash::Merge: 0.12
+  Hash::Merge::Simple: 0.051
+  Hash::MultiValue: 0.10
+  Hash::Util::FieldHash::Compat: 0.03
+  Hook::LexWrap: 0.24
+  IO::All: 0
+  IO::CaptureOutput: 1.1102
+  IO::Interactive: 0.0.6
+  IO::Scalar: 0
+  IO::Socket: 1.30
+  IO::String: 1.08
+  IO::Stringy: 2.110
+  IO::TieCombine: 1.001
+  IPC::Cmd: 0.76
+  IPC::Open2: 1.03
+  IPC::Open3: 0
+  IPC::Run: 0.90
+  IPC::Run3: 0.044
+  IPC::System::Simple: 1.21
+  Imager: 0.86
+  Lexical::Persistence: 1.020
+  List::MoreUtils: 0.33
+  List::Util: 1.25
+  Locale::Codes: 3.18
+  Locale::Maketext: 1.19
+  Locale::Msgfmt: 0.15
+  Mixin::Linewise::Readers: 0.003
+  Number::Compare: 0.03
+  PDF::Create: 1.06
+  POD2::Base: 0.043
+  PadWalker: 1.93
+  Parallel::ForkManager: 1.00
+  Params::Check: 0.36
+  Params::Classify: 0.013
+  Params::Util: 1.04
+  Params::Validate: 1.05
+  Parse::Binary: 0.11
+  Parse::ErrorString::Perl: 0.15
+  Parse::ExuberantCTags: 1.02
+  Parse::Method::Signatures: 1.003014
+  Parse::RecDescent: 1.967003
+  Path::Class: 0.29
+  Perl6::Junction: 1.400000
+  Probe::Perl: 0.01
+  Proc::ProcessTable: 0.46
+  Readonly: 1.03
+  Readonly::XS: 1.05
+  Role::HasMessage: 0.005
+  Role::Identifiable::HasIdent: 0.005
+  SVG: 2.50
+  Scope::Guard: 0.20
+  Scope::Upper: 0.18
+  Set::Object: 0
+  Smart::Comments: 0
+  String::CRC32: 1.4
+  String::Random: 0.22
+  Syntax::Keyword::Gather: 1.002001
+  Sys::Hostname: 0
+  Sys::Syslog: 0.29
+  Text::Balanced: 2.01
+  Text::FindIndent: 0.10
+  Text::Markdown: 1.000031
+  Text::Template: 1.45
+  Tree::Simple: 1.18
+  Tree::Simple::Visitor::FindByPath: 0.03
+  Unicode::Collate: 0.84
+  Unicode::Normalize: 1.13
+  autobox: 2.75
+  bignum: 0.29
+  common::sense: 3.4
+  constant::boolean: 0.02
+  perl: 5.008
+  strictures: 1.002002
+  syntax: 0.003
+  version: 0.95
+resources:
+  license: http://dev.perl.org/licenses/
+  repository: https://github.com/dwimperl/Task-DWIM
+version: 0.07
